@@ -4,19 +4,37 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Rock Paper Scissors</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="app.js" async defer></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <img id="rock" src="images/rock.jpeg" alt="rock" />
+    <img id="papper" src="images/papper.png" alt="papper" />
+    <img id="scissors" src="images/scissors.png" alt="scissors" /> -->
+    <button value="rock" class="game btns">ROCK</button>
+    <button value="paper" class="game btns">PAPPER</button>
+    <button value="scissors" class="game btns">SCISSORS</button>
+
+    <div>
+      <h3>ROUND RESULT</h3>
+      <p class="com"></p>
+      <p class="play"></p>
+      <h5 class="roundWin"></h5>
+    </div>
+
+    <div class="finalWins">
+      <h3>FINAL RESULT</h3>
+      <p class="comFinal">COMPUTER:</p>
+      <p class="playFinal">PLAYER:</p>
+      <p class="tieFinal">TIE:</p>
+      <p class="finalRes"></p>
+    </div>
+    <button class="resets">RESET GAME</button>
+    <script src="app.js" async defer></script>
+  </body>
 </html>
